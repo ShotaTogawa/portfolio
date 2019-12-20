@@ -1,0 +1,63 @@
+.WorkSection {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+}
+
+.SkillsTitle {
+  font-size: 4rem;
+  text-align: center;
+  margin: 7rem 0 4rem 0;
+}
+
+.Specialities {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.Fields {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  font-size: 2.5rem;
+  margin: 8rem 0 12rem 0;
+}
+
+.Field {
+  padding-bottom: 7px;
+  border-bottom: 2px solid #eee;
+  cursor: pointer;
+}
+
+.Skills {
+  width: 100%;
+  height: 15rem;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-bottom: 7rem;
+}
+
+.Skill {
+  text-align: center;
+}
+
+i {
+  font-size: 8.5rem;
+  text-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.3);
+}
+
+.Language {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 2rem;
+}
