@@ -1,0 +1,100 @@
+.WorkSection {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(
+      to top,
+      rgba(34, 32, 41, 0.6),
+      rgba(34, 32, 41, 0.8)
+    ),
+    url(../../assets//images/laptop.jpg) center no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  transition: left 0.8s cubic-bezier(1, 0, 0, 1);
+}
+
+.WorkTitle {
+  font-size: 4rem;
+  text-align: center;
+  color: #fff;
+  margin: 7rem 0 4rem 0;
+}
+
+.Works {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.Card {
+  width: 30rem;
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.image-top {
+  width: 100%;
+  height: 18rem;
+  object-fit: cover;
+}
+
+.Card h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.2rem;
+  color: #555;
+  margin: 1rem;
+}
+
+.AboutMe {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.4rem;
+  width: 90%;
+  margin-top: 1.5rem;
+  font-style: italic;
+  color: #444;
+  text-align: center;
+}
+
+.WorkSection button {
+  width: 12rem;
+  padding: 1rem;
+  margin: 4rem 0 4rem 0;
+  background-color: tomato;
+  border: none;
+  outline: none;
+  border-radius: 2.5rem;
+  font-family: "Josefin Sans", sans-serif;
+  color: #eee;
+  box-shadow: 0.5rem 0.5rem 2rem rgba(0, 0, 0, 0.4);
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+.WorkSection:hover button {
+  transform: scale(1.1);
+  animation: buttonRotation 2s 1s linear;
+}
+
+@media (max-width: 1300px) {
+  .image-top {
+    height: 20rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .Card {
+    margin: 0 3rem 5rem 3rem;
+  }
+}
