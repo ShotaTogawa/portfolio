@@ -22,7 +22,9 @@ const renderCard = () => {
               className="GoPageBtn"
               style={classes.GoPageBtn}
             >
-              Go Page
+              <a href={app.link} target="_blank">
+                Go Page
+              </a>
             </button>
           </div>
         </div>

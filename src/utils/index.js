@@ -5,10 +5,10 @@ export const works = [
   {
     image: myportfolio,
     name: "My Portfolio",
-    link: "",
+    link: "https://nervous-bhabha-4fcb5f.netlify.com/",
     about:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed natus illum expedita, at distinctio nesciunt.",
-    githublink: ""
+    githublink: "https://github.com/ShotaTogawa/portfolio"
   },
   {
     image: emaily,
@@ -174,7 +174,7 @@ export const appsDetail = [
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi expedita ratione itaque, quaerat officiis quia recusandae, pariatur amet odio qui eius incidunt voluptas a in totam temporamolestias, veritatis quod.",
     stuck: "HTML5, CSS3, React, Express, MongoDB",
     image: myportfolio,
-    link: "#"
+    link: "https://nervous-bhabha-4fcb5f.netlify.com/"
   },
   {
     name: "Emaily",
