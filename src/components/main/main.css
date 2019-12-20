@@ -1,0 +1,109 @@
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url(../../assets/images/notebook.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.Greeting {
+  display: flex;
+  flex-direction: column;
+}
+
+.Const {
+  margin: 12rem 0 0 8rem;
+  font-size: 4rem;
+  color: #fff;
+  opacity: 0.7;
+}
+
+.GreetingContent {
+  font-size: 4.2rem;
+  color: #fff;
+  opacity: 0.8;
+  margin-left: 14rem;
+}
+.Braces {
+  margin: 1rem 0 0 8rem;
+  font-size: 4rem;
+  color: #fff;
+  opacity: 0.7;
+}
+
+.Stick {
+  animation: move 1s infinite;
+}
+
+@keyframes move {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .Const {
+    font-size: 3.5rem;
+  }
+  .GreetingContent {
+    font-size: 3.7rem;
+  }
+  .Braces {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 740px) {
+  .Const {
+    font-size: 3rem;
+  }
+  .GreetingContent {
+    font-size: 3.2rem;
+  }
+  .Braces {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .Const {
+    font-size: 2.5rem;
+  }
+  .GreetingContent {
+    font-size: 2.7rem;
+  }
+  .Braces {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .Const {
+    font-size: 2rem;
+  }
+  .GreetingContent {
+    font-size: 2.2rem;
+    margin-left: 12rem;
+  }
+  .Braces {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .Const {
+    font-size: 1.8rem;
+  }
+  .GreetingContent {
+    font-size: 2rem;
+    margin-left: 10rem;
+  }
+  .Braces {
+    font-size: 1.5rem;
+  }
+}
