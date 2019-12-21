@@ -1,5 +1,7 @@
 import emaily from "../assets/images/emaily.png";
 import myportfolio from "../assets/images/portfolio.png";
+import bookshelf from "../assets/images/bookshelf.png";
+import expressjs from "../assets/images/expressjs.svg";
 
 export const works = [
   {
@@ -9,6 +11,14 @@ export const works = [
     about:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed natus illum expedita, at distinctio nesciunt.",
     githublink: "https://github.com/ShotaTogawa/portfolio"
+  },
+  {
+    image: bookshelf,
+    name: "BookShelf",
+    link: "https://bookshelf112.herokuapp.com/user",
+    about:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed natusillum expedita, at distinctio nesciunt.",
+    githublink: "https://github.com/ShotaTogawa/bookshelf-prod"
   },
   {
     image: emaily,
@@ -112,7 +122,8 @@ export const backEnd = [
     level: 1
   },
   {
-    icon: "fab fa-cc-amex",
+    // icon: "fab fa-cc-amex",
+    icon: expressjs,
     skill: "Express",
     color: "#02D3F7",
     level: 1
