@@ -11,7 +11,17 @@ class Skills extends Component {
     return this.state.field.map(skill => {
       return (
         <div className="Skill" style={classes.Skill} key={skill.skill}>
-          <i className={skill.icon} style={{ color: skill.color }}></i>
+          {skill.skill === "Express" ? (
+            <img
+              src={skill.icon}
+              alt={skill.skill}
+              style={{
+                margin: " 1rem 0 1.3rem 0"
+              }}
+            />
+          ) : (
+            <i className={skill.icon} style={{ color: skill.color }}></i>
+          )}
           <p className="Language" style={classes.Language}>
             {skill.skill}
           </p>
