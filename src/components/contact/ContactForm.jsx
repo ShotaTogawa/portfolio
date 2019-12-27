@@ -42,11 +42,11 @@ class ContactForm extends Component {
               Send
             </button>
           </form>
-          <Link to="/">
+          {/* <Link to="/">
             <div className="Xbtn" style={classes.Xbtn}>
               &#10005;
             </div>
-          </Link>
+          </Link> */}
         </div>
       </div>
     );

@@ -43,11 +43,6 @@ export const icons = [
   },
   {
     url: "#",
-    icon: "far fa-envelope",
-    name: "Email"
-  },
-  {
-    url: "#",
     icon: "fab fa-linkedin",
     name: "Linkedin"
   },
