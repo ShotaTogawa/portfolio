@@ -19,7 +19,12 @@ const renderIcons = () => {
     }
     return (
       <div className="Sns" style={classes.Sns} key={icon.name}>
-        <a href={icon.url} alt={icon.name} target="_blank">
+        <a
+          href={icon.url}
+          alt={icon.name}
+          rel="noreferrer noopener"
+          target="_blank"
+        >
           <i className={icon.icon}></i>
         </a>
         <p className="SnsName" style={classes.SnsName}>

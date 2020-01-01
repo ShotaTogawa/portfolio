@@ -98,19 +98,19 @@
   color: #312f30;
   border: 3px solid #312f30;
 }
-.Sns:nth-child(3) i:hover {
+/* .Sns:nth-child(3) i:hover {
   color: #d74a3f;
   border: 3px solid #d74a3f;
-}
-.Sns:nth-child(4) i:hover {
+} */
+.Sns:nth-child(3) i:hover {
   color: #0372af;
   border: 3px solid #0372af;
 }
-.Sns:nth-child(5) i:hover {
+.Sns:nth-child(4) i:hover {
   color: #2ea8ee;
   border: 3px solid #2ea8ee;
 }
-.Sns:nth-child(6) i:hover {
+.Sns:nth-child(5) i:hover {
   color: #1356a7;
   border: 3px solid #1356a7;
 }

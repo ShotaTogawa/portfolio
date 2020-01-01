@@ -10,15 +10,21 @@ const renderCard = () => {
           className="LinkName"
           style={classes.LinkName}
           href={work.link}
+          rel="noreferrer noopener"
           target="_blank"
         >
-          <img src={work.image} className="image-top" />
+          <img src={work.image} className="image-top" alt={work.name} />
         </a>
         <h1>{work.name}</h1>
-        <p className="AboutMe" style={classes.AboutMe}>
+        <p className="AboutApp" style={classes.AboutApp}>
           {work.about}
         </p>
-        <a href={work.githublink} alt={work.name} target="_blank">
+        <a
+          href={work.githublink}
+          alt={work.name}
+          rel="noreferrer noopener"
+          target="_blank"
+        >
           <i
             className="fab fa-github"
             style={{ fontSize: "3rem", margin: "1rem 0", color: "#312f30" }}
