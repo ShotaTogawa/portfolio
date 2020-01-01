@@ -20,7 +20,7 @@
   font-size: 4rem;
   color: #fff;
   text-align: center;
-  margin: 7rem 0 4rem 0;
+  margin: 3rem 0 2rem 0;
 }
 
 .Contact {
@@ -29,14 +29,14 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   height: auto;
-  width: 80%;
-  margin: 0 auto 4rem auto;
-  background: linear-gradient(
+  width: 70%;
+  margin: 0 auto;
+  /* background: linear-gradient(
       to top,
       rgba(34, 32, 41, 0.6),
       rgba(34, 32, 41, 0.8)
     ),
-    url(../../assets/images/coffee.jpg) center no-repeat;
+    url(../../assets/images/coffee.jpg) center no-repeat; */
   border-radius: 10px;
 }
 
@@ -70,9 +70,10 @@
 
 .Sns i {
   color: #fff;
-  font-size: 6.5rem;
-  width: 12rem;
-  height: 12rem;
+  font-size: 6rem;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
   background-color: #555;
   display: flex;
   justify-content: center;
@@ -97,19 +98,19 @@
   color: #312f30;
   border: 3px solid #312f30;
 }
-.Sns:nth-child(3) i:hover {
+/* .Sns:nth-child(3) i:hover {
   color: #d74a3f;
   border: 3px solid #d74a3f;
-}
-.Sns:nth-child(4) i:hover {
+} */
+.Sns:nth-child(3) i:hover {
   color: #0372af;
   border: 3px solid #0372af;
 }
-.Sns:nth-child(5) i:hover {
+.Sns:nth-child(4) i:hover {
   color: #2ea8ee;
   border: 3px solid #2ea8ee;
 }
-.Sns:nth-child(6) i:hover {
+.Sns:nth-child(5) i:hover {
   color: #1356a7;
   border: 3px solid #1356a7;
 }
@@ -132,7 +133,7 @@ a:link {
   text-align: center;
   color: #fff;
   font-weight: bold;
-  margin: 3rem 0 5rem 0;
+  margin-top: 1rem;
 }
 
 /* footer */

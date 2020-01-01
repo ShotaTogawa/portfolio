@@ -2,6 +2,7 @@ import emaily from "../assets/images/emaily.png";
 import myportfolio from "../assets/images/portfolio.png";
 import bookshelf from "../assets/images/bookshelf.png";
 import expressjs from "../assets/images/expressjs.svg";
+import brickhouse from "../assets/images/brickhouse.png";
 
 export const works = [
   {
@@ -9,7 +10,7 @@ export const works = [
     name: "My Portfolio",
     link: "https://nervous-bhabha-4fcb5f.netlify.com/",
     about:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed natus illum expedita, at distinctio nesciunt.",
+      "Welcome to my portfolio that you are seeing now!  I built this from design and wrote with React without any CSS framework.",
     githublink: "https://github.com/ShotaTogawa/portfolio"
   },
   {
@@ -17,7 +18,7 @@ export const works = [
     name: "BookShelf",
     link: "https://bookshelf112.herokuapp.com/user",
     about:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed natusillum expedita, at distinctio nesciunt.",
+      "BookShelf is my first full stack project built by MERN stuck. This helps to manage your reading status easily.",
     githublink: "https://github.com/ShotaTogawa/bookshelf-prod"
   },
   {
@@ -27,6 +28,14 @@ export const works = [
     about:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed natusillum expedita, at distinctio nesciunt.",
     githublink: "https://github.com/ShotaTogawa/emaily"
+  },
+  {
+    image: brickhouse,
+    name: "Brickhouse Project",
+    link: "https://vigorous-visvesvaraya-70500e.netlify.com/",
+    about:
+      "This is a school team project to make a client homepage by using React .",
+    githublink: "https://github.com/ShotaTogawa/Brickhouse-shcool-project"
   }
 ];
 
@@ -37,30 +46,26 @@ export const icons = [
     name: "Resume"
   },
   {
-    url: "#",
+    url: "https://github.com/ShotaTogawa",
     icon: "fab fa-github",
     name: "Github"
   },
   {
-    url: "#",
-    icon: "far fa-envelope",
-    name: "Email"
-  },
-  {
-    url: "#",
+    url: "https://www.linkedin.com/in/shota-togawa-ba8235185/",
     icon: "fab fa-linkedin",
     name: "Linkedin"
   },
   {
-    url: "#",
+    url: "https://twitter.com/shota54802490",
     icon: "fab fa-twitter",
     name: "Twitter"
-  },
-  {
-    url: "#",
-    icon: "fab fa-facebook-square",
-    name: "Facebook"
   }
+  // {
+  //   url:
+  //     "https://www.facebook.com/togawa.shota?viewas=100000686899395&privacy_source=timeline_gear_menu&entry_point=action_bar#_",
+  //   icon: "fab fa-facebook-square",
+  //   name: "Facebook"
+  // }
 ];
 
 export const frontEnd = [

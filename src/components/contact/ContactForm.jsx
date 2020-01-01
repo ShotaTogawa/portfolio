@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import classes from "./contactFrom.css";
 
 class ContactForm extends Component {
@@ -42,11 +42,11 @@ class ContactForm extends Component {
               Send
             </button>
           </form>
-          <Link to="/">
+          {/* <Link to="/">
             <div className="Xbtn" style={classes.Xbtn}>
               &#10005;
             </div>
-          </Link>
+          </Link> */}
         </div>
       </div>
     );

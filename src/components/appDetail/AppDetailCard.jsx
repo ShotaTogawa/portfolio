@@ -7,7 +7,7 @@ const renderCard = () => {
   return appsDetail.map((app, i) => {
     if (i % 2 === 0) {
       return (
-        <div className="AppContainer" style={classes.FormContainer}>
+        <div className="AppContainer" key={i} style={classes.FormContainer}>
           <div className="AppImage">
             <img src={app.image} alt={app.name} className="DetailImage" />
           </div>
@@ -22,7 +22,7 @@ const renderCard = () => {
               className="GoPageBtn"
               style={classes.GoPageBtn}
             >
-              <a href={app.link} target="_blank">
+              <a href={app.link} target="_blank" rel="noreferrer noopener">
                 Go Page
               </a>
             </button>
@@ -39,7 +39,7 @@ const renderCard = () => {
           <h3>Stuck</h3>
           <p>{app.stuck}</p>
           <button type="button" className="GoPageBtn" style={classes.GoPageBtn}>
-            <a href={app.link} target="_blank">
+            <a href={app.link} target="_blank" rel="noreferrer noopener">
               Go Page
             </a>
           </button>

@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "./contact.css";
 import Icons from "./Icons";
+import ContactForm from "./ContactForm";
 
 const Contact = () => {
   return (
@@ -12,7 +13,7 @@ const Contact = () => {
       <h3 className="ContactTitle" style={classes.ContactTitle}>
         Get in touch
       </h3>
-
+      <ContactForm />
       <div className="Contact" style={classes.Contact}>
         <Icons />
       </div>

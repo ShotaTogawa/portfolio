@@ -1,38 +1,83 @@
-.AboutTitle {
-  text-align: center;
-  font-size: 4rem;
-  margin: 4rem 0;
-}
-
-.Image {
+#ABOUT {
+  display: flex;
+  flex-direction: column;
   width: 100%;
   height: auto;
+  /* margin: 4rem; */
+}
+
+.AboutTitle {
+  display: flex;
+  height: auto;
+  justify-content: center;
+  font-size: 4rem;
+  /* color: #fff; */
   text-align: center;
   margin-bottom: 2rem;
 }
 
-.Selfie {
-  width: 20rem;
-  height: 20rem;
-  margin: 0 auto;
+.AboutContainer {
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-direction: row;
+  margin-bottom: 4rem;
+  margin-right: 5rem;
+}
+
+@media (max-width: 800px) {
+  .AboutContainer {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .AboutContent {
+    font-size: 1.2rem;
+  }
+}
+
+.MyImageBox {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+.MyImage {
+  width: 28rem;
+  height: 28rem;
   border-radius: 50%;
-}
-
-.Myname {
-  font-size: 4rem;
-  text-align: center;
-}
-
-.Occupation {
-  font-size: 3rem;
-  text-align: center;
-  margin-top: 1rem;
-  padding-bottom: 0, 5rem;
+  margin: 4rem 0;
 }
 
 .AboutMe {
-  font-size: 2rem;
-  padding: 0 2rem 3rem 3rem;
-  text-align: center;
-  letter-spacing: 0.5px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 5rem;
+}
+
+.AboutDetailContainer {
+  margin-top: 4.5rem;
+}
+
+.Label {
+  display: block;
+  margin-bottom: 3rem;
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.SecondLabel {
+  font-size: 1.8rem;
+  color: #888888;
+  border-bottom: 2px solid #888888;
+}
+
+.AboutContent {
+  line-height: 2.5rem;
+  margin-top: -2.5rem;
+  padding-left: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #888888;
 }
