@@ -60,28 +60,28 @@ class Skills extends Component {
       <section id="skills">
         <div className="Fields" style={classes.Fields}>
           <div
-            className="Field"
+            className="Field Field-1"
             style={classes.field}
             onClick={() => this.handleClick(0)}
           >
             Frontend
           </div>
           <div
-            className="Field"
+            className="Field Field-2"
             style={classes.field}
             onClick={() => this.handleClick(1)}
           >
             Backend
           </div>
           <div
-            className="Field"
+            className="Field Field-3"
             style={classes.field}
             onClick={() => this.handleClick(2)}
           >
             Infrastructure
           </div>
           <div
-            className="Field"
+            className="Field Field-4"
             style={classes.field}
             onClick={() => this.handleClick(3)}
           >
