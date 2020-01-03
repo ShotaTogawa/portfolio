@@ -60,4 +60,39 @@ i {
   text-align: center;
   font-weight: bold;
   margin-top: 2rem;
+  transition: transform 1s;
+  cursor: pointer;
+}
+
+.Fields .Field-1:hover {
+  transform: scale(1.2);
+  border-bottom: 2px solid #ff6347;
+}
+
+.Fields .Field-2:hover {
+  transform: scale(1.2);
+  border-bottom: 2px solid #ff6347;
+}
+
+.Fields .Field-3:hover {
+  transform: scale(1.2);
+  border-bottom: 2px solid #ff6347;
+}
+
+.Fields .Field-4:hover {
+  transform: scale(1.2);
+  border-bottom: 2px solid #ff6347;
+}
+
+.Fields:nth-child(2):hover {
+  transform: scale(1.1);
+
+  color: red;
+  border: 3px solid #312f30;
+}
+
+@media (max-width: 450px) {
+  .Fields {
+    font-size: 2rem;
+  }
 }
