@@ -15,7 +15,7 @@ const renderCard = () => {
             <h1>{app.name}</h1>
             <h3>Descriptipm</h3>
             <p>{app.description}</p>
-            <h3>Stuck</h3>
+            <h3>Stack</h3>
             <p>{app.stuck}</p>
             <button
               type="button"
@@ -36,7 +36,7 @@ const renderCard = () => {
           <h1>{app.name}</h1>
           <h3>Descriptipm</h3>
           <p>{app.description}</p>
-          <h3>Stuck</h3>
+          <h3>Stack</h3>
           <p>{app.stuck}</p>
           <button type="button" className="GoPageBtn" style={classes.GoPageBtn}>
             <a href={app.link} target="_blank" rel="noreferrer noopener">
