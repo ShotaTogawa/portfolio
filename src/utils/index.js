@@ -3,6 +3,7 @@ import myportfolio from "../assets/images/portfolio.png";
 import bookshelf from "../assets/images/bookshelf.png";
 import expressjs from "../assets/images/expressjs.svg";
 import brickhouse from "../assets/images/brickhouse.png";
+import resume from "../assets/Resume.pdf";
 
 export const works = [
   {
@@ -41,7 +42,7 @@ export const works = [
 
 export const icons = [
   {
-    url: "#",
+    url: resume,
     icon: "fas fa-file",
     name: "Resume"
   },
@@ -162,7 +163,7 @@ export const infrastructure = [
   },
   {
     icon: "fab fa-docker",
-    skill: "Travis CI",
+    skill: "CI/CD",
     color: "#02D3F7",
     level: 3
   }
@@ -186,17 +187,33 @@ export const others = [
 export const appsDetail = [
   {
     name: "My Portfolio",
-    description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi expedita ratione itaque, quaerat officiis quia recusandae, pariatur amet odio qui eius incidunt voluptas a in totam temporamolestias, veritatis quod.",
-    stuck: "HTML5, CSS3, React, Express, MongoDB",
+    description: "This is my portfolio website to introduce myself. ",
+    stuck: "HTML5, CSS3, React, Netlify",
     image: myportfolio,
     link: "https://nervous-bhabha-4fcb5f.netlify.com/"
   },
   {
+    name: "BookShelf",
+    description:
+      "This is my first personal project from scratch by MERN Stack. In this application, you can manage your reading status by registering your books. Also, you can take memos for each books.Please feel free to play my app. Login info of test user is 'email: test@test.com / password: 123456'",
+    stuck: "HTML5, CSS3, React, MongoDB, Express, Amazon S3, Heroku",
+    image: bookshelf,
+    link: "https://bookshelf112.herokuapp.com/"
+  },
+  {
+    name: "Brickhouse project",
+    description:
+      "This is a school project to make client HP by using React with my teammate.",
+    stuck: "HTML5, CSS3, React",
+    image: brickhouse,
+    link: "https://vigorous-visvesvaraya-70500e.netlify.com/"
+  },
+  {
     name: "Emaily",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi expedita ratione itaque, quaerat officiis quia recusandae, pariatur amet odio qui eius incidunt voluptas a in totam temporamolestias, veritatis quod.",
-    stuck: "HTML5, CSS3, React, Express, MongoDB",
+      "I learned how to build a fullstack web application by MERN stack through this application. In this application, you can send email to your client to survey customer needs.",
+    stuck:
+      "HTML5, CSS3, MongoDB, Express, React, Node, Send Grid, Strip, Heroku, MaterialUI",
     image: emaily,
     link: "https://still-fjord-95766.herokuapp.com/"
   }
