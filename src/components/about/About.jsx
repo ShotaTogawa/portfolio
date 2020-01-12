@@ -4,7 +4,7 @@ import myImage from "../../assets/images/my_image.jpg";
 
 const About = () => {
   return (
-    <section id="About">
+    <section id="about">
       <h3 className="AboutTitle" style={classes.AboutTitle}>
         About Me
       </h3>
@@ -27,8 +27,9 @@ const About = () => {
             </span>
             <p className="AboutContent" style={classes.Description}>
               I am Shota who raised in Japan and currently based in Vancouver,
-              Canada. After working for almost 3 years in Japan, I decided to
-              try a new challenge to become a web developer in global fields.
+              Canada. After working for almost 3 years as a system counsultant
+              and engineer in Japan, I decided to try a new challenge to become
+              a web developer in global fields.
             </p>
           </div>
           <div>
@@ -46,8 +47,8 @@ const About = () => {
               >
                 {" "}
                 Future Architect{" "}
-              </a>
-              - Japan <br />
+              </a>{" "}
+              / Associate consultant - Japan <br />
               2013 - 2015
               <a
                 href="https://www.asoview.com/"
@@ -59,7 +60,7 @@ const About = () => {
                 {" "}
                 Asoview
               </a>{" "}
-              - Japan
+              / Sales - Japan
             </p>
           </div>
           <div>
@@ -67,12 +68,12 @@ const About = () => {
               Education
             </span>
             <p className="AboutContent" style={classes.Description}>
-              Cornerstone International Community College, Canada / Web
-              Development Co-Op Diploma
+              2019 - Present Cornerstone International Community College, Canada
+              / Web Development Co-Op Diploma
               <br />
-              Meiji University, Japan / Infromation Communication
+              2011 - 2016 Meiji University, Japan / Information Communication
               <br />
-              Bellevue College, The USA
+              2012 - 2013 Bellevue College, The USA
             </p>
           </div>
           <div>
