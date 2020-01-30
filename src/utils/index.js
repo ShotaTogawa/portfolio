@@ -1,9 +1,9 @@
-import emaily from "../assets/images/emaily.png";
 import myportfolio from "../assets/images/portfolio.png";
 import bookshelf from "../assets/images/bookshelf.png";
 import expressjs from "../assets/images/expressjs.svg";
 import brickhouse from "../assets/images/brickhouse.png";
 import resume from "../assets/Resume.pdf";
+import keeptrail from "../assets/images/keeptrail.png";
 
 export const works = [
   {
@@ -23,12 +23,12 @@ export const works = [
     githublink: "https://github.com/ShotaTogawa/bookshelf-prod"
   },
   {
-    image: emaily,
-    name: "Emaily",
-    link: "https://still-fjord-95766.herokuapp.com/",
+    image: keeptrail,
+    name: "KeepTrail",
+    link: "https://keeptrail.herokuapp.com/",
     about:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed natusillum expedita, at distinctio nesciunt.",
-    githublink: "https://github.com/ShotaTogawa/emaily"
+      "This is my second personal project. In this application, I used GraphQL to learn about it. This app helps you leave your trail of your efforts because you can manage your plan and outcome easily.",
+    githublink: "https://github.com/ShotaTogawa/second-project"
   },
   {
     image: brickhouse,
@@ -201,20 +201,20 @@ export const appsDetail = [
     link: "https://bookshelf112.herokuapp.com/"
   },
   {
+    name: "Keep Trail",
+    description:
+      "This is my second personal project. In this application, I used GraphQL to learn about it. This app helps you leave your trail of your efforts because you can manage your plan and outcome easily.",
+    stuck:
+      "HTML5, CSS3, MongoDB, Express, React, Node, GraphQL, Apollo, Heroku",
+    image: keeptrail,
+    link: "https://keeptrail.herokuapp.com/"
+  },
+  {
     name: "Brickhouse project",
     description:
       "This is a school project to make client HP by using React with my teammate.",
     stuck: "HTML5, CSS3, React",
     image: brickhouse,
     link: "https://vigorous-visvesvaraya-70500e.netlify.com/"
-  },
-  {
-    name: "Emaily",
-    description:
-      "I learned how to build a fullstack web application by MERN stack through this application. In this application, you can send email to your client to survey customer needs.",
-    stuck:
-      "HTML5, CSS3, MongoDB, Express, React, Node, Send Grid, Strip, Heroku, MaterialUI",
-    image: emaily,
-    link: "https://still-fjord-95766.herokuapp.com/"
   }
 ];
