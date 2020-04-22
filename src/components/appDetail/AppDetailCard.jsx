@@ -1,7 +1,7 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import classes from "./app-detail.css";
-import { appsDetail } from "../../utils";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import classes from './app-detail.css';
+import { appsDetail } from '../../utils';
 
 const renderCard = () => {
   return appsDetail.map((app, i) => {
@@ -64,30 +64,4 @@ const AppDetailCard = () => {
     </div>
   );
 };
-
-// class AppDetail extends Component {
-//   render() {
-//     console.log(this.props.description);
-//     return (
-//       <div className="Container" style={classes.Container}>
-//         <div className="AppContainer" style={classes.FormContainer}>
-//           <div className="AppImage"></div>
-//           <div className="Description">
-//             <h1>Name</h1>
-//             <h3>Descriptipm</h3>
-//             <p>
-//               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi
-//               expedita ratione itaque, quaerat officiis quia recusandae,
-//               pariatur amet odio qui eius incidunt voluptas a in totam tempora
-//               molestias, veritatis quod.
-//             </p>
-//             <h3>Stuck</h3>
-//             <p>skill</p>
-//           </div>
-//         </div>
-//       </div>
-//     );
-//   }
-// }
-
 export default AppDetailCard;
