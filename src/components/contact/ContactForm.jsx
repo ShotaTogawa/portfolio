@@ -1,6 +1,6 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 // import { Link } from "react-router-dom";
-import classes from "./contactFrom.css";
+import classes from './contactFrom.css';
 
 class ContactForm extends Component {
   render() {
@@ -42,11 +42,6 @@ class ContactForm extends Component {
               Send
             </button>
           </form>
-          {/* <Link to="/">
-            <div className="Xbtn" style={classes.Xbtn}>
-              &#10005;
-            </div>
-          </Link> */}
         </div>
       </div>
     );
